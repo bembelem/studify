@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    column-gap: 0.5em;
+}
+
+
+.input {
+    width: 1.5em;
+    height: 1.5em;
+    accent-color: black;
+    cursor: pointer;
+}
+
+.input:checked + .label {
+    color: black;
+}
+
+
+.label {
+    color: #adb5bd;
+    font-size: 1em;
+    cursor: pointer;
+}
+

@@ -1,0 +1,18 @@
+.text {
+    padding: 10px;
+    width: 90%;
+    height: calc(6em + 1px);
+    border-radius: 10px;
+    outline: 3px solid #ced4da;
+    font-size: 1em;
+    resize: none;
+    transition: outline-color 0.25s;
+}
+
+.text::placeholder {
+    color: #adb5bd;
+}
+
+.text:focus {
+    outline-color: black;
+}

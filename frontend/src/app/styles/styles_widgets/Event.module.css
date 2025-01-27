@@ -1,0 +1,88 @@
+.container,
+.container_test_checked,
+.container_project_checked,
+.container_colloquium_checked,
+.container_homework_checked {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    transition: transform 0.25s;
+    cursor: pointer;
+}
+
+.container:hover,
+.container_test_checked:hover,
+.container_project_checked:hover,
+.container_colloquium_checked:hover,
+.container_homework_checked:hover {
+    z-index: 0;
+    transform: scale(1.05);
+}
+
+.container {
+    border: 3px solid #ced4da;
+}
+
+.container_test_checked {
+    border: 3px solid #80ed99;
+}
+
+.container_project_checked {
+    border: 3px solid #ffb3c1;
+}
+
+.container_colloquium_checked {
+    border: 3px solid #90e0ef;
+}
+
+.container_homework_checked {
+    border: 3px solid #e0aaff;
+}
+
+.type,
+.type_practice_checked,
+.type_lecture_checked {
+    transition: color 5s;
+}
+
+.type {
+    color: #ced4da;
+}
+
+.type_practice_checked {
+    color: #2ec4b6;
+}
+
+.type_lecture_checked {
+    color: #e85d04;
+}
+
+
+.room_type {
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.5em;
+}
+
+
+.subject {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.time {
+    margin: 8% 0 0 0;
+}

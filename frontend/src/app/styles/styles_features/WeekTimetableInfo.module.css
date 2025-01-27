@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    height: 90vh;
+}
+
+
+.timetable_dayinfo {
+    display: grid;
+    width: 95%;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: #f8f9fa;
+    box-shadow: 0 5px 10px 0 #6c757d;
+}
+
+
+.timetable_event {
+    display: grid;
+    overflow-y: scroll;
+    scrollbar-color: #adb5bd transparent;
+    width: 100%;
+    height: 82vh;
+    grid-auto-flow: column;
+    grid-template-columns: 5% repeat(6, 1fr);
+    grid-template-rows: repeat(8, 22vh)
+}
+
+
+.container_loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 82vh;
+}
+
+
+.container_dayinfo {
+    padding: 0 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 8vh;
+    border-top: none;
+}
+
+
+.container_eventorder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #adb5bd;
+    color: #6c757d;
+    font-size: larger;
+}
+
+
+.container_event {
+    overflow: hidden;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    border-top: none;
+    border-bottom: 2px solid #adb5bd;
+    border-left: 2px solid  #adb5bd;
+}

@@ -1,0 +1,21 @@
+.input,
+.input:focus,
+.input_valid,
+.input_error {
+    padding: 10px;
+    width: 90%;
+    border-radius: 10px;
+    outline: 3px solid #adb5bd;
+    font-size: larger;
+    transition: outline 0.5s;
+}
+
+.input_valid,
+.input_valid:focus {
+    outline: 3px solid #57cc99;
+}
+
+.input_error,
+.input_error:focus {
+    outline: 3px solid #c9184a;
+}

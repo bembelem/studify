@@ -1,0 +1,24 @@
+.container {
+    padding: 5% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #ced4da;
+    border-radius: 10px;
+    background-color: #ced4da;
+    cursor: pointer;
+}
+
+
+.add {
+    color: #6c757d;
+    transition: color 0.5s;
+}
+
+.container:hover .add{
+    color: black;
+}
+

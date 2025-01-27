@@ -1,0 +1,98 @@
+.container {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 3px solid #ced4da;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+
+.container_name_close,
+.container_name_show {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.container_name_show {
+    box-shadow: 0 5px 10px 0 #6c757d;
+}
+
+
+.description_button,
+.description_button_disabled {
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+}
+
+.description_button {
+    cursor: pointer;
+}
+
+
+.icon_disabled {
+    color: #ced4da;
+    transform: rotateZ(180deg) !important;
+}
+
+
+.name {
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.icon_close,
+.icon_show {
+    transition: transform 0.5s !important;
+}
+
+.icon_close {
+    transform: rotateZ(180deg) !important;
+}
+
+.icon_show {
+    transform: rotateZ(0deg) !important;
+}
+
+
+.button {
+    padding: 5px;
+    border: 3px solid #57cc99;
+    border-radius: 1em;
+    background-color: transparent;
+    color: #57cc99;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+.button:active {
+    background-color: #e9ecef;
+}
+
+
+.container_description_close {
+    overflow: hidden;
+    height: 0;
+}
+
+.container_description_show {
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #adb5bd transparent;
+    padding: 10px;
+    width: 100%;
+    height: calc(6em + 1px);
+    background-color: transparent;
+}

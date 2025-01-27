@@ -1,0 +1,16 @@
+.button,
+.button:active {
+    padding: 5px;
+    border: 3px solid #c9184a;
+    border-radius: 1em;
+    background-color: #c9184a;
+    color: white;
+    font-size: 1em;
+    transition: background-color 0.1s, border-color 0.1s;
+    cursor: pointer
+}
+
+.button:active {
+    background-color: #a4133c;
+    border-color: #a4133c;
+}

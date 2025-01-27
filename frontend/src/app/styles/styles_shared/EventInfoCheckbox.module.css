@@ -1,0 +1,75 @@
+.input {
+    display: none;
+}
+
+
+.label_practice,
+.label_lecture,
+.label_test,
+.label_project,
+.label_colloquium,
+.label_homework {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: 1em;
+    background-color: #f8f9fa;
+    font-size: 1em;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+
+.label_practice {
+    border: 3px solid #cbf3f0;
+    color: #2ec4b6;
+}
+
+label .input:checked + .label_practice {
+    background-color: #cbf3f0;
+}
+
+.label_lecture {
+    border: 3px solid #ffbf69;
+    color: #e85d04;
+}
+
+label .input:checked + .label_lecture {
+    background-color: #ffbf69;
+}
+
+.label_test {
+    border: 3px solid #c7f9cc;
+    color: #38a3a5;
+}
+
+label .input:checked + .label_test {
+    background-color: #c7f9cc;
+}
+
+.label_project {
+    border: 3px solid #ffccd5;
+    color: #c9184a;
+}
+
+label .input:checked + .label_project {
+    background-color: #ffccd5;
+}
+
+.label_colloquium {
+    border: 3px solid #caf0f8;
+    color: #0077b6;
+}
+
+label .input:checked + .label_colloquium {
+    background-color: #caf0f8;
+}
+
+.label_homework {
+    border: 3px solid #e0aaff;
+    color: #5a189a;
+}
+
+label .input:checked + .label_homework {
+    background-color: #e0aaff;
+}

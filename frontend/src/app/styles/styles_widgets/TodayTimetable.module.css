@@ -1,0 +1,51 @@
+.container {
+    width: 20%;
+    background-color: #f8f9fa;
+}
+
+
+.container_dayinfo {
+    padding: 0 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 10%;
+    box-shadow: 0 5px 10px 0 #6c757d;
+}
+
+
+.container_events {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    overflow-y: scroll;
+    scrollbar-color: #adb5bd transparent;
+    width: 100%;
+    height: 90%;
+}
+
+
+.container_loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 82vh;
+}
+
+.today,
+.today:hover {
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+.today:hover {
+    color: #57cc99;
+}
+
+.today:active {
+    transition: color 0.1s ;
+    color: #80ed99;
+}

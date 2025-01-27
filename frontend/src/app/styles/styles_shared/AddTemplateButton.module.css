@@ -1,0 +1,21 @@
+.button {
+    top: 0;
+    position: sticky;
+    padding: 3%;
+    width: calc(100% - 3px);
+    background-color: #ced4da;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.button_icon {
+    width: 3vw !important;
+    height: 3vw !important;
+    color: #6c757d;
+    transition: color 0.25s;
+}
+
+.button:hover .button_icon {
+    color: black;
+}

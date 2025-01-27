@@ -1,0 +1,15 @@
+.button {
+    width: calc(80% + 10px);
+    height: 100%;
+    border-radius: 10px;
+    font-size: larger;
+    background-color: #c9184a;
+    border-color: #c9184a;
+    color: white;
+    cursor: pointer;
+}
+
+.button:active {
+    transition: background-color 0.1s;
+    background-color: #a4133c;
+}

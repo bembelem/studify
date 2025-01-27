@@ -1,0 +1,25 @@
+.button,
+.button_active {
+    width: calc(80% + 10px);
+    height: 100%;
+    border-radius: 10px;
+    font-size: larger;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.button {
+    background-color: transparent;
+    border: 4px solid #57cc99;
+    color: #57cc99;
+}
+
+.button_active {
+    background-color: #57cc99;
+    color: #f8f9fa;
+    cursor: pointer;
+}
+
+.button_active:active {
+    transition: background-color 0.1s;
+    background-color: #80ed99; 
+}

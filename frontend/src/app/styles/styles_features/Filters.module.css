@@ -1,0 +1,55 @@
+.filters {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #6c757d;
+    cursor: pointer;
+}
+
+
+.icon_close,
+.icon_show {
+    transition: transform 0.5s !important;
+}
+
+.icon_close {
+    transform: rotateZ(180deg) !important;
+}
+
+.icon_show {
+    transform: rotateZ(0deg) !important;
+}
+
+
+.container_close {
+    overflow: hidden;
+    position: absolute;
+    height: 0;
+}
+
+.container_show {
+    z-index: 1;
+    position: absolute;
+    margin: 10px 0 0 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    border-radius: 10px;
+    width: 10vw;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 10px 0 #6c757d;
+    animation-name: show;
+    animation-duration: 0.25s;
+}
+
+@keyframes show {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 100;
+    }
+}

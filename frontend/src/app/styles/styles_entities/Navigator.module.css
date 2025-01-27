@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 6%;
+    background-color: #e9ecef;
+}
+
+
+.container_navigator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10%;
+    width: 100%;
+    height: 90%;
+}
+
+
+.button_nav {
+    width: 2vw !important;
+    height: 2vw !important;
+}

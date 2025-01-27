@@ -1,0 +1,48 @@
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.icon {
+    width: 3vw !important;
+    height: 3vw !important;
+    color: #57cc99;
+}
+
+
+.container_window {
+    position: absolute;
+    left: 5.7vw;
+    width: 15.7vw;
+    height: 10vh;
+    background-color: #f8f9fa;
+}
+
+
+.container_window_hidden {
+    display: none;
+}
+
+
+.button_window {
+    width: 100%;
+    height: 50%;
+    background-color: transparent;
+    transition: background-color 0.25s, color 0.25s;
+    cursor: pointer;
+}
+
+.button_window:hover {
+    background-color: #e9ecef;
+}
+
+.button_window:active {
+    color: #57cc99;
+}
